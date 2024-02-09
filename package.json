@@ -1,0 +1,30 @@
+{
+  "name": "hellocalendar",
+  "version": "2.1.0",
+  "description": "",
+  "main": "hellocalendar.js",
+  "gpt3.apiKey": "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",
+  "bin": {
+    "hellocalendar": "./dist/hellocalendar.js",
+    "calendar": "./guide/calendar"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cat-me": "^1.0.3",
+    "handlebars": "^4.7.8",
+    "ical2json": "^3.1.2",
+    "moment-timezone": "^0.5.39",
+    "mustache": "^4.2.0",
+    "unescape-js": "^1.1.4",
+    "yargs": "^17.6.2"
+  },
+  "devDependencies": {
+    "@types/mustache": "^4.2.2",
+    "@types/node": "^18.19.10",
+    "@types/yargs": "^17.0.17"
+  }
+}
